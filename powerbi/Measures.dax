@@ -1,0 +1,28 @@
+// Add each definition SEPARATELY through Modeling > New measure.
+// Use the exact table name Tickets. Percentages below return ratios, not 0-100.
+
+Total Requests = COALESCE(COUNTROWS(Tickets), 0)
+
+Open Backlog =
+CALCULATE([Total Requests], KEEPFILTERS(Tickets[is_open] = 1))
+
+Resolved Requests =
+CALCULATE([Total Requests], KEEPFILTERS(Tickets[is_open] = 0))
+
+Overdue Requests =
+CALCULATE([Total Requests], KEEPFILTERS(Tickets[sla_state] = "Overdue"))
+
+At Risk Requests =
+CALCULATE([Total Requests], KEEPFILTERS(Tickets[sla_state] = "At risk"))
+
+Resolved Within SLA =
+CALCULATE([Total Requests], KEEPFILTERS(Tickets[sla_state] = "Met"))
+
+SLA Compliance = DIVIDE([Resolved Within SLA], [Resolved Requests])
+
+Average Resolution Hours =
+CALCULATE(AVERAGE(Tickets[resolution_hours]), KEEPFILTERS(Tickets[is_open] = 0))
+
+Attention Requests = [Overdue Requests] + [At Risk Requests]
+
+Snapshot UTC = MAX(Tickets[snapshot_at])

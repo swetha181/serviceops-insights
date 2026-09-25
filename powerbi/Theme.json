@@ -1,0 +1,7 @@
+{
+  "name": "ServiceOps Insights",
+  "dataColors": ["#2868C7", "#08796B", "#D39522", "#BA3347", "#6987A0"],
+  "background": "#F3F6F8",
+  "foreground": "#142B3C",
+  "tableAccent": "#2868C7"
+}
