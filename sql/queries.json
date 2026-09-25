@@ -1,0 +1,5 @@
+{
+  "metrics": "SELECT COUNT(*) AS total, COALESCE(SUM(is_open), 0) AS open, COALESCE(SUM(1 - is_open), 0) AS resolved, COALESCE(SUM(sla_state = 'Overdue'), 0) AS overdue, COALESCE(SUM(sla_state = 'At risk'), 0) AS at_risk, COALESCE(SUM(sla_state = 'Met'), 0) AS met, AVG(resolution_hours) AS avg_resolution_hours FROM tickets",
+  "by_department": "SELECT department, COUNT(*) AS total, SUM(is_open) AS open, SUM(sla_state = 'Overdue') AS overdue FROM tickets GROUP BY department ORDER BY total DESC, department",
+  "by_day": "SELECT created_on, COUNT(*) AS total FROM tickets GROUP BY created_on ORDER BY created_on"
+}
