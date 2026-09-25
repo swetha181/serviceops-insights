@@ -1,0 +1,158 @@
+{
+  "metrics": {
+    "total": 240,
+    "open": 72,
+    "resolved": 168,
+    "overdue": 42,
+    "at_risk": 8,
+    "met": 88,
+    "avg_resolution_hours": 32.99,
+    "sla_met_pct": 52.4
+  },
+  "by_department": [
+    {
+      "department": "Finance",
+      "total": 54,
+      "open": 18,
+      "overdue": 8
+    },
+    {
+      "department": "People & Culture",
+      "total": 51,
+      "open": 18,
+      "overdue": 9
+    },
+    {
+      "department": "Sales",
+      "total": 48,
+      "open": 12,
+      "overdue": 10
+    },
+    {
+      "department": "ICT",
+      "total": 46,
+      "open": 15,
+      "overdue": 9
+    },
+    {
+      "department": "Operations",
+      "total": 41,
+      "open": 9,
+      "overdue": 6
+    }
+  ],
+  "by_day": [
+    {
+      "created_on": "2026-08-18",
+      "total": 2
+    },
+    {
+      "created_on": "2026-08-19",
+      "total": 3
+    },
+    {
+      "created_on": "2026-08-20",
+      "total": 2
+    },
+    {
+      "created_on": "2026-08-21",
+      "total": 7
+    },
+    {
+      "created_on": "2026-08-22",
+      "total": 12
+    },
+    {
+      "created_on": "2026-08-23",
+      "total": 7
+    },
+    {
+      "created_on": "2026-08-24",
+      "total": 9
+    },
+    {
+      "created_on": "2026-08-25",
+      "total": 4
+    },
+    {
+      "created_on": "2026-08-26",
+      "total": 6
+    },
+    {
+      "created_on": "2026-08-27",
+      "total": 8
+    },
+    {
+      "created_on": "2026-08-28",
+      "total": 8
+    },
+    {
+      "created_on": "2026-08-29",
+      "total": 8
+    },
+    {
+      "created_on": "2026-08-30",
+      "total": 8
+    },
+    {
+      "created_on": "2026-08-31",
+      "total": 3
+    },
+    {
+      "created_on": "2026-09-01",
+      "total": 4
+    },
+    {
+      "created_on": "2026-09-02",
+      "total": 4
+    },
+    {
+      "created_on": "2026-09-03",
+      "total": 8
+    },
+    {
+      "created_on": "2026-09-04",
+      "total": 5
+    },
+    {
+      "created_on": "2026-09-05",
+      "total": 7
+    },
+    {
+      "created_on": "2026-09-06",
+      "total": 6
+    },
+    {
+      "created_on": "2026-09-07",
+      "total": 9
+    },
+    {
+      "created_on": "2026-09-08",
+      "total": 12
+    },
+    {
+      "created_on": "2026-09-09",
+      "total": 10
+    },
+    {
+      "created_on": "2026-09-10",
+      "total": 15
+    },
+    {
+      "created_on": "2026-09-11",
+      "total": 13
+    },
+    {
+      "created_on": "2026-09-12",
+      "total": 22
+    },
+    {
+      "created_on": "2026-09-13",
+      "total": 38
+    }
+  ],
+  "snapshot_at": "2026-09-14T00:00:00Z",
+  "dataset": "synthetic-demo",
+  "accepted_rows": 240,
+  "rejected_rows": 3
+}
