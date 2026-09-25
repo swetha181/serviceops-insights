@@ -19,7 +19,7 @@ python3 -m unittest discover -s tests -v
 
 On Windows, use `py` in place of `python3`. Run commands from this repository's root folder.
 
-Open **build/dashboard.html** in your browser. It is self-contained and works offline; no web server is required. Filter by department/priority, search a ticket ID or category, and use Reset filters. The ZIP also includes a prebuilt copy in `examples/dashboard.html`.
+Open **build/dashboard.html** in your browser. It is self-contained and works offline; no web server is required. Filter by department/priority, search a ticket ID or category, and use Reset filters. This repository also includes a prebuilt copy in `examples/dashboard.html`.
 
 ## What is implemented
 
@@ -33,7 +33,7 @@ Open **build/dashboard.html** in your browser. It is self-contained and works of
 | Power Query M and DAX measure files | Authored; import and validation in Power BI Desktop still required |
 | Power Automate JSON schema and flow specification | Authored; build and testing in your Microsoft tenant still required |
 | Automated tests | 15 tests passed locally with Python 3.12 |
-| GitHub Actions configuration | Included; remote CI runs after you publish |
+| GitHub Actions configuration | Included; latest run passed after the complete source was uploaded |
 
 This is not a production system, a PBIX export, or an importable Power Automate package. Power BI Desktop needs Windows. The existing browser dashboard is a local report and is not presented as a Microsoft Power BI screenshot.
 
@@ -128,31 +128,9 @@ docs/            Interview preparation and verification notes
 
 Regenerate the source fixture with `python3 scripts/generate_demo.py`. It uses a fixed random seed so it is repeatable. Then rerun the pipeline and tests.
 
-## Publish to your GitHub account
-
-Suggested name: **serviceops-insights**. Suggested description: **IT service desk analytics with Python, SQL, Power BI assets and Power Automate workflow design.**
-
-1. Create an empty repository in your account. Do not initialise it with a README if using the commands below.
-2. Unzip this project, open a terminal in its `serviceops-insights` folder, and run the tests.
-3. Review the code and README, then run:
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Add ServiceOps reporting pipeline and Power Platform assets"
-   git branch -M main
-   git remote add origin https://github.com/swetha181/serviceops-insights.git
-   git push -u origin main
-   ```
-
-   Use that remote only if you created that exact repository; otherwise copy your new repository's URL. GitHub may ask you to authenticate. There is no need to paste credentials into source files.
-
-4. Check the Actions tab for the test result. Add genuine Power BI / Power Automate screenshots after completing their guides. Avoid including employer data, private dashboards or connection details.
-5. Add the actual repository link to the résumé once published. The supplied résumé uses your existing GitHub profile so it contains no invented project URL.
-
 ## Limitations and next steps
 
-This is a learning prototype prepared with AI assistance. Run it, inspect the tests and adapt the business rules before discussing it as your portfolio work. Future extensions include real service-desk ingestion, business-calendar SLA timers, event history, persistent alert deduplication and a tested Microsoft cloud deployment. The project does not currently use an LLM; deterministic rules make SLA results explainable. Your existing Claude API project separately demonstrates AI experience.
+This is a learning prototype prepared with AI assistance. Run it, inspect the tests and adapt the business rules before discussing it as your portfolio work. Future extensions include real service-desk ingestion, business-calendar SLA timers, event history, persistent alert deduplication and a tested Microsoft cloud deployment. The project does not currently use an LLM; deterministic rules make SLA results explainable.
 
 ## Publication verification — 25 September 2026
 
