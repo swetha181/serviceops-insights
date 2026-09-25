@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "snapshot_id": "432cd29c89e6a2f189d1",
+  "snapshot_at": "2026-09-14T00:00:00Z",
+  "dataset": "synthetic-demo",
+  "alert_count": 50,
+  "alerts": [
+    {
+      "ticket_id": "INC-0128",
+      "department": "Operations",
+      "priority": "Critical",
+      "sla_state": "Overdue",
+      "elapsed_hours": 6.8761,
+      "sla_hours": 4,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0044",
+      "department": "Sales",
+      "priority": "Critical",
+      "sla_state": "Overdue",
+      "elapsed_hours": 6.0447,
+      "sla_hours": 4,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0152",
+      "department": "ICT",
+      "priority": "Critical",
+      "sla_state": "Overdue",
+      "elapsed_hours": 5.5436,
+      "sla_hours": 4,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0102",
+      "department": "Finance",
+      "priority": "High",
+      "sla_state": "Overdue",
+      "elapsed_hours": 18.6103,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0153",
+      "department": "Operations",
+      "priority": "High",
+      "sla_state": "Overdue",
+      "elapsed_hours": 18.265,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0072",
+      "department": "ICT",
+      "priority": "High",
+      "sla_state": "Overdue",
+      "elapsed_hours": 16.3008,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0190",
+      "department": "People & Culture",
+      "priority": "High",
+      "sla_state": "Overdue",
+      "elapsed_hours": 15.2044,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0063",
+      "department": "People & Culture",
+      "priority": "High",
+      "sla_state": "Overdue",
+      "elapsed_hours": 15.2017,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0076",
+      "department": "ICT",
+      "priority": "High",
+      "sla_state": "Overdue",
+      "elapsed_hours": 15.1589,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0061",
+      "department": "Sales",
+      "priority": "High",
+      "sla_state": "Overdue",
+      "elapsed_hours": 14.6319,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0105",
+      "department": "People & Culture",
+      "priority": "High",
+      "sla_state": "Overdue",
+      "elapsed_hours": 10.3867,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0049",
+      "department": "Finance",
+      "priority": "High",
+      "sla_state": "Overdue",
+      "elapsed_hours": 10.1133,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0179",
+      "department": "ICT",
+      "priority": "High",
+      "sla_state": "Overdue",
+      "elapsed_hours": 9.3194,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0091",
+      "department": "ICT",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 56.5931,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0022",
+      "department": "People & Culture",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 54.3817,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0147",
+      "department": "Operations",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 53.8178,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0077",
+      "department": "People & Culture",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 53.7794,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0092",
+      "department": "Sales",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 49.3531,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0129",
+      "department": "Sales",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 46.9744,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0043",
+      "department": "People & Culture",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 41.6564,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0030",
+      "department": "People & Culture",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 39.7022,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0064",
+      "department": "ICT",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 38.0039,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0148",
+      "department": "ICT",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 37.7964,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0112",
+      "department": "Finance",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 37.0642,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0052",
+      "department": "People & Culture",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 34.5911,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0014",
+      "department": "Sales",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 30.9531,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0217",
+      "department": "ICT",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 30.7447,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0157",
+      "department": "Sales",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 27.6056,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0067",
+      "department": "ICT",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 25.8542,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0038",
+      "department": "Sales",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 25.725,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0114",
+      "department": "Finance",
+      "priority": "Medium",
+      "sla_state": "Overdue",
+      "elapsed_hours": 24.2858,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0213",
+      "department": "Finance",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 143.8161,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0040",
+      "department": "Operations",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 137.4578,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0098",
+      "department": "Finance",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 132.4297,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0013",
+      "department": "Sales",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 132.2039,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0023",
+      "department": "Operations",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 123.6622,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0045",
+      "department": "People & Culture",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 121.6044,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0084",
+      "department": "Sales",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 114.9964,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0099",
+      "department": "Sales",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 114.4017,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0089",
+      "department": "Operations",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 103.9711,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0207",
+      "department": "Finance",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 93.7222,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0176",
+      "department": "Finance",
+      "priority": "Low",
+      "sla_state": "Overdue",
+      "elapsed_hours": 91.6922,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0151",
+      "department": "ICT",
+      "priority": "High",
+      "sla_state": "At risk",
+      "elapsed_hours": 7.3814,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0124",
+      "department": "People & Culture",
+      "priority": "High",
+      "sla_state": "At risk",
+      "elapsed_hours": 7.3667,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0034",
+      "department": "People & Culture",
+      "priority": "High",
+      "sla_state": "At risk",
+      "elapsed_hours": 6.5106,
+      "sla_hours": 8,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0078",
+      "department": "Operations",
+      "priority": "Medium",
+      "sla_state": "At risk",
+      "elapsed_hours": 23.7858,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0065",
+      "department": "People & Culture",
+      "priority": "Medium",
+      "sla_state": "At risk",
+      "elapsed_hours": 20.4928,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0180",
+      "department": "Operations",
+      "priority": "Medium",
+      "sla_state": "At risk",
+      "elapsed_hours": 19.4161,
+      "sla_hours": 24,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0048",
+      "department": "Sales",
+      "priority": "Low",
+      "sla_state": "At risk",
+      "elapsed_hours": 68.2675,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    },
+    {
+      "ticket_id": "INC-0189",
+      "department": "People & Culture",
+      "priority": "Low",
+      "sla_state": "At risk",
+      "elapsed_hours": 61.5908,
+      "sla_hours": 72,
+      "suggested_action": "Assign an owner and review the next action; do not auto-close the request."
+    }
+  ]
+}

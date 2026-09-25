@@ -1,0 +1,4 @@
+source_row,ticket_id,reason
+242,INC-0001,duplicate ticket_id; first valid row retained
+243,INC-9001,"priority must be Critical, High, Medium or Low"
+244,INC-9002,Invalid isoformat string: 'not-a-date'
