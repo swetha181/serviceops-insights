@@ -1,0 +1,21 @@
+{
+  "artifact_type": "manual-build-specification-not-an-importable-flow",
+  "name": "ServiceOps - review SLA alerts",
+  "deployment_status": "not deployed or tested in a Microsoft tenant",
+  "trigger": "Manually trigger a flow",
+  "steps": [
+    {"name": "Payload", "action": "Data Operation - Compose", "input": "Paste the full contents of build/alerts.json"},
+    {"name": "Parse_JSON", "action": "Data Operation - Parse JSON", "content_expression": "outputs('Payload')", "schema_file": "alerts.schema.json"},
+    {"name": "Filter_array", "action": "Data Operation - Filter array", "from_expression": "body('Parse_JSON')?['alerts']", "advanced_condition": "@or(equals(item()?['sla_state'], 'Overdue'), equals(item()?['sla_state'], 'At risk'))"},
+    {"name": "Has_alerts", "action": "Condition", "left_expression": "length(body('Filter_array'))", "operator": "is greater than", "right_value": 0},
+    {"branch": "Yes", "name": "Create_HTML_table", "action": "Data Operation - Create HTML table", "from_expression": "body('Filter_array')", "columns": "Custom: ticket_id, department, priority, sla_state, elapsed_hours, sla_hours"},
+    {"branch": "Yes", "name": "Send_an_email_V2", "action": "Office 365 Outlook - Send an email (V2)", "recipient": "Choose your own test inbox in the designer", "subject_expression": "concat('[DEMO] ServiceOps SLA review - ', body('Parse_JSON')?['snapshot_id'])", "body": "Add the snapshot UTC and the Create HTML table output using dynamic content"},
+    {"branch": "No", "action": "Data Operation - Compose", "input": "No actionable requests; no email sent"}
+  ],
+  "notes": [
+    "No credentials or recipients are stored in this repository.",
+    "A person must review suggested escalations.",
+    "The manual demo can send the same digest again if manually rerun.",
+    "Add persistent deduplication and file freshness checks before scheduling."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "required": ["schema_version", "snapshot_id", "snapshot_at", "dataset", "alert_count", "alerts"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "snapshot_id": {"type": "string"},
+    "snapshot_at": {"type": "string"},
+    "dataset": {"type": "string"},
+    "alert_count": {"type": "integer"},
+    "alerts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ticket_id", "department", "priority", "sla_state", "elapsed_hours", "sla_hours", "suggested_action"],
+        "properties": {
+          "ticket_id": {"type": "string"},
+          "department": {"type": "string"},
+          "priority": {"type": "string"},
+          "sla_state": {"type": "string"},
+          "elapsed_hours": {"type": "number"},
+          "sla_hours": {"type": "integer"},
+          "suggested_action": {"type": "string"}
+        }
+      }
+    }
+  }
+}
